@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15861" started-at="2023-01-09T17:29:55 IST" finished-at="2023-01-09T17:30:11 IST">
+    <groups>
+      <group name="Sanity">
+        <method signature="GroupTest.verifyTitleTest1()[pri:0, instance:TestCases.GroupTest@fad74ee]" name="verifyTitleTest1" class="TestCases.GroupTest"/>
+        <method signature="GroupTest.verifyTitleTest3()[pri:0, instance:TestCases.GroupTest@fad74ee]" name="verifyTitleTest3" class="TestCases.GroupTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="GroupTest.verifyTitleTest1()[pri:0, instance:TestCases.GroupTest@fad74ee]" name="verifyTitleTest1" class="TestCases.GroupTest"/>
+        <method signature="GroupTest.verifyTitleTest3()[pri:0, instance:TestCases.GroupTest@fad74ee]" name="verifyTitleTest3" class="TestCases.GroupTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="15861" started-at="2023-01-09T17:29:55 IST" finished-at="2023-01-09T17:30:11 IST">
+      <class name="TestCases.GroupTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.GroupTest@fad74ee]" name="setup" is-config="true" duration-ms="6961" started-at="2023-01-09T17:29:55 IST" finished-at="2023-01-09T17:30:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTitleTest1()[pri:0, instance:TestCases.GroupTest@fad74ee]" name="verifyTitleTest1" duration-ms="2028" started-at="2023-01-09T17:30:02 IST" finished-at="2023-01-09T17:30:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.GroupTest@fad74ee]" name="closeBrowser" is-config="true" duration-ms="303" started-at="2023-01-09T17:30:04 IST" finished-at="2023-01-09T17:30:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.GroupTest@fad74ee]" name="setup" is-config="true" duration-ms="4085" started-at="2023-01-09T17:30:04 IST" finished-at="2023-01-09T17:30:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTitleTest3()[pri:0, instance:TestCases.GroupTest@fad74ee]" name="verifyTitleTest3" duration-ms="2016" started-at="2023-01-09T17:30:08 IST" finished-at="2023-01-09T17:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest3 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.GroupTest@fad74ee]" name="closeBrowser" is-config="true" duration-ms="351" started-at="2023-01-09T17:30:10 IST" finished-at="2023-01-09T17:30:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.GroupTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
